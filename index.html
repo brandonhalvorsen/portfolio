@@ -87,9 +87,6 @@
                         <li class="nav-item">
                             <a class="nav-link" href="javascript:void(0);" data-scroll-nav="4">Interests</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0);" data-scroll-nav="6">Contact</a>
-                        </li>
                     </ul>
                 </div>
                 <!-- End Navbar Links -->
@@ -116,7 +113,7 @@
                             <div class="social-links margin-30px-bottom xs-margin-20px-bottom">
                                 <a href="https://github.com/brandonhalvorsen"><i class="fab fa-github-square fa-2x"></i></a>
                                 <a href="https://www.linkedin.com/in/brandon-halvorsen/"><i class="fab fa-linkedin fa-2x"></i></a>
-                                <a href="javascript:void(0);" data-scroll-nav="6"><i class="fas fa-envelope fa-2x"></i></a>
+                                <a href="mailto:brandon@brandonhalvorsen.dev" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
                             </div>
                             <a class="btn white" href="javascript:void(0);" data-scroll-nav="3">View My Portfolio <i class="fas fa-arrow-right font-size15 margin-5px-left"></i></a>
                         </div>
@@ -153,9 +150,6 @@
                         <li class="nav-item">
                             <a class="nav-link" href="javascript:void(0);" data-scroll-nav="4">Interests</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0);" data-scroll-nav="6">Contact</a>
-                        </li>
                     </ul>
                 </nav>
 
@@ -163,7 +157,7 @@
                     <div class="social-links">
                         <a href="https://github.com/brandonhalvorsen"><i class="fab fa-github-square fa-3x"></i></a>
                         <a href="https://www.linkedin.com/in/brandon-halvorsen/"><i class="fab fa-linkedin fa-3x"></i></a>
-                        <a href="javascript:void(0);" data-scroll-nav="6"><i class="fas fa-envelope fa-3x"></i></a>
+                        <a href="mailto:brandon@brandonhalvorsen.dev" target="_blank"><i class="fas fa-envelope fa-3x"></i></a>
                     </div>
                 </div>
             </div>
@@ -521,83 +515,6 @@
         </div>
     </section>
     <!-- End Interests Section -->
-    
-    <!-- Start Contact Section -->
-    <section class="contact no-padding-bottom" data-scroll-index="6">
-        <div class="container margin-100px-bottom md-margin-70px-bottom sm-margin-50px-bottom">
-            <div class="row">
-                <div class="col-12 center-col margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center">
-                    <h3 class="font-weight-700 font-size32 md-font-size27 sm-font-size24 xs-font-size20 section-title">Contact</h3>
-                </div>
-            </div>
-            <div class="row">
-
-                <!-- Start Get In Touch -->
-                <div class="col-lg-12">
-                        <form method="post" action="bat/rd-mailform.php" class="mailform off2">
-                            <input type="hidden" name="form-type" value="contact">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <input type="text" name="name" placeholder="Name" data-constraints="@LettersOnly @NotEmpty">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" name="phone" placeholder="Telephone" data-constraints="@Phone">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" name="email" placeholder="Email" data-constraints="@Email @NotEmpty">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" name="subject" placeholder="Subject" data-constraints="@NotEmpty">
-                                </div>                                
-                                <div class="col-md-12">
-                                    <textarea name="message" rows="5" placeholder="Message" data-constraints="@NotEmpty"></textarea>
-                                </div>
-                                <div class="mfControls col-md-12 text-center">
-                                    <button type="submit" class="btn white">Send Message</button>
-                                </div>
-                            </div>
-                        </form>
-                </div>
-                <!-- End Get In Touch -->
-
-            </div>
-        </div>
-
-        <div class="bg-light-gray padding-30px-tb border-top border-color-medium-gray">
-            <div class="container">
-                <div class="row info">
-
-                    <!-- Start Quickly Contact -->
-
-                    <div class="col-lg-4 col-md-3 item text-center border-right xs-no-border-right xs-border-bottom border-color-medium-gray xs-margin-20px-bottom xs-padding-20px-bottom">
-                        <span class="icon font-size32"><i class="icon-phone"></i></span>
-                        <div class="cont">
-                            <h6>Phone</h6>
-                            <p>360 250 6579</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-5 item text-center border-right xs-no-border-right xs-border-bottom border-color-medium-gray xs-margin-20px-bottom xs-padding-20px-bottom">
-                        <span class="icon font-size32"><i class="icon-map"></i></span>
-                        <div class="cont">
-                            <h6>Address</h6>
-                            <p>Olympia, Washington</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 item text-center">
-                        <span class="icon font-size32"><i class="icon-envelope"></i></span>
-                        <div class="cont">
-                            <h6>Email</h6>
-                            <p>brandon@brandonhalvorsen.dev</p>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- End Quickly Contact -->
-            </div>
-        </div>
-
-    </section>
-    <!-- End Contact Section -->
 
     <!--  Start Footer Section -->
     <footer class="bg-black">
@@ -651,13 +568,9 @@
 
     <!-- Countdown -->
     <script src="js/countdown.js"></script>
-
+    
     <!-- Custom Scripts -->
     <script src="js/scripts.js"></script>
-
-    <!-- Contact Form Scripts -->
-    <script src="js/mailform/jquery.form.min.js"></script>
-    <script src="js/mailform/jquery.rd-mailform.min.c.js"></script>
 
 </body>
 
