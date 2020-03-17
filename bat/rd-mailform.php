@@ -1,6 +1,6 @@
 <?php
 
-$recipients = 'addyour@emailhere';
+$recipients = 'halvorsenbrandon@gmail.com';
 //$recipients = '#';
 
 try {
