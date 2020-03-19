@@ -10,3 +10,9 @@
 
 /* == helper classes == */
 @import url("plugins/helper.css");
+
+/* == et-line icon font == */
+@import url("plugins/et-line.css");
+
+/* == mailform == */
+@import url("plugins/mailform.css");
