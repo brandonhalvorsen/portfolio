@@ -1184,7 +1184,7 @@ a:hover, a:active{
     width: 100%;
     margin: auto;
     position: absolute;
-    top: 27%;
+    top: 35%;
     left: 0;
   }
   .month {
@@ -1230,9 +1230,6 @@ a:hover, a:active{
 .main-timeline {
   .date-content {
     margin-top: 35px;
-    &:before {
-      width: 22.5%;
-    }
   }
   .timeline-content {
     padding: 10px 0 10px 30px;

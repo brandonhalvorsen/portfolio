@@ -913,7 +913,7 @@ a:hover, a:active {
     width: 100%;
     margin: auto;
     position: absolute;
-    top: 27%;
+    top: 35%;
     left: 0; }
   .main-timeline .month {
     font-size: 18px;
@@ -946,8 +946,6 @@ a:hover, a:active {
 @media only screen and (max-width: 991px) {
   .main-timeline .date-content {
     margin-top: 35px; }
-    .main-timeline .date-content:before {
-      width: 22.5%; }
   .main-timeline .timeline-content {
     padding: 10px 0 10px 30px; }
   .main-timeline .title {
