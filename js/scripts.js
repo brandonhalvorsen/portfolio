@@ -86,17 +86,17 @@ $(function() {
 
         if(bodyScroll > 100){
             navbar.addClass("nav-scroll");
-            logo.attr('src', 'img/logo-dark.png');
-            darkbg.attr('src', 'img/logo-light.png');
-            whitebg.attr('src', 'img/logo-dark.png');
-            scrollbg.attr('src', 'img/logo-light.png');
-            lightbg.attr('src', 'img/logo-dark.png');
+            logo.attr('src', 'img/logo.png');
+            darkbg.attr('src', 'img/logo.png');
+            whitebg.attr('src', 'img/logo.png');
+            scrollbg.attr('src', 'img/logo.png');
+            lightbg.attr('src', 'img/logo.png');
 
         }else{
             navbar.removeClass("nav-scroll");
-            logo.attr('src', 'img/logo-light.png');
-            lightbg.attr('src', 'img/logo-dark.png');
-            navbloglogo.attr('src', 'img/logo-dark.png');
+            logo.attr('src', 'img/logo.png');
+            lightbg.attr('src', 'img/logo.png');
+            navbloglogo.attr('src', 'img/logo.png');
         }
     });
     
