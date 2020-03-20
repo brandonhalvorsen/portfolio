@@ -81,6 +81,14 @@ a:hover, a:active {
   color: #232323;
   text-decoration: none; }
 
+a.btn.black {
+  display: block;
+  max-width: 70%;
+  margin-bottom: 5%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .btn {
   display: inline-block;
   font-size: 14px;
