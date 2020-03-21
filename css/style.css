@@ -1,27 +1,27 @@
-Table of contents
+/*  Table of Contents
         
-    01. Basic
-    02. Banner
-    03. Navbar
-    04. Header
-    05. Sidebar
-    06. About box
-    07. Skill Progress
-    08. Timeline
-    09. Portfolio
-    10. Counter
-    11. Testimonials
-    12. Contact
-    13. Blog
-    14. Countdown Coming soon page
-    15. Footer
-    16. Responsive
+    Basic
+    Banner
+    Navbar
+    Header
+    Sidebar
+    About Box
+    Skill Progress
+    Timeline
+    Portfolio
+    Counter
+    Testimonials
+    Contact
+    Blog
+    Countdown Coming Soon Page
+    Footer
+    Responsive
     
 ---------------------------------- */
 /*============================== 
     Basic
 ================================*/
-/* loader */
+/* Loader */
 #preloader {
   position: fixed;
   left: 0;
@@ -278,7 +278,7 @@ a.btn.black {
   .no-js .banner-words-wrapper b.is-visible {
     opacity: 1; }
 
-/* xclip */
+/* Xclip */
 .banner-headline.clip span {
   display: inline-block;
   padding: .2em 0; }
@@ -299,7 +299,7 @@ a.btn.black {
 .banner-headline b.is-visible {
   opacity: 1; }
 
-/* Owl theme control */
+/* Owl Theme Control */
 .owl-theme .owl-dots .owl-dot span {
   width: 12px;
   height: 12px;
@@ -311,7 +311,7 @@ a.btn.black {
   background: #232323;
   border-color: #232323; }
 
-/* background video */
+/* Background Video */
 .bg-vid {
   position: absolute;
   top: 0;
@@ -319,7 +319,7 @@ a.btn.black {
   min-width: 100%;
   min-height: 100%; }
 
-/* particles banner */
+/* Particles Banner */
 #particles-js {
   position: absolute;
   top: 0;
@@ -491,7 +491,7 @@ a.btn.black {
   .side-menu .navbar-brand {
     margin: 0 0 2.5rem 0; }
 
-/*Side overlay*/
+/* Side Overlay */
 #close_sidebar {
   position: fixed;
   top: 0;
@@ -506,7 +506,7 @@ a.btn.black {
   z-index: 1031;
   opacity: 0.4; }
 
-/*side close btn*/
+/* Side Close Button */
 .side-menu .btn-close {
   height: 33px;
   width: 33px;
@@ -537,7 +537,7 @@ a.btn.black {
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg); }
 
-/*side open btn*/
+/* Side Open Button */
 .sidemenu_btn {
   -webkit-transition: all .3s linear;
   -o-transition: all .3s linear;
@@ -698,12 +698,12 @@ a.btn.black {
   .side-menu.black .social-links a:hover {
     color: #fff; }
 
-/* Side Left Panel*/
+/* Side Left Panel */
 .side-menu.left-panel {
   display: none; }
 
 @media screen and (min-width: 992px) {
-  /* Side Left Panel*/
+  /* Side Left Panel */
   .side-menu.left-panel {
     width: 250px;
     left: 0;
@@ -740,7 +740,7 @@ a.btn.black {
     .left-panel .social-links a:last-child {
       margin-right: 0; }
 
-  /* Side Dark Left Panel*/
+  /* Side Dark Left Panel */
   .left-panel.dark {
     background: #3a3a3a;
     border-color: rgba(255, 255, 255, 0.1); }
@@ -754,7 +754,7 @@ a.btn.black {
   .sidebar-wrapper {
     padding-left: 250px; } }
 /*============================== 
-    About box
+    About Box
 ================================*/
 .about-box {
   border-radius: 5px;
@@ -1212,7 +1212,7 @@ a.btn.black {
       color: #fff; }
 
 .blogs .posts {
-  /* pagination */ }
+  /* Pagination */ }
   .blogs .posts .post {
     margin-bottom: 30px; }
     .blogs .posts .post .content {
@@ -1382,7 +1382,7 @@ a.btn.black {
   float: right; }
 
 /*============================== 
-    Countdown Coming soon page
+    Countdown Coming Soon Page
 ================================*/
 .coming-soon .social-links li {
   display: inline-block;
@@ -1526,7 +1526,7 @@ ul.countdown li {
       color: #232323 !important;
       opacity: 1; }
 
-  /*header bg-black-theme */
+  /* Header Bg-Black-Theme */
   .navbar.bg-black {
     background: #232323; }
     .navbar.bg-black .icon-bar {
@@ -1570,7 +1570,7 @@ ul.countdown li {
     .navbar.bg-light-gray .navbar-nav .nav-link:hover, .navbar.bg-light-gray.nav-scroll .navbar-nav .nav-link.active {
       color: #232323; }
 
-  /*header bg-light-gray */
+  /* Header Bg-Light-Gray */
   .header {
     transition-timing-function: none;
     -moz-transition-timing-function: none;
@@ -1641,4 +1641,3 @@ ul.countdown li {
     font-size: 20px;
     margin-top: 5px; } }
 
-/*# sourceMappingURL=style.css.map */

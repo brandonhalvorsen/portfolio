@@ -1,18 +1,18 @@
 /* ----------------------------------------------------------------
-			[ All Css Plugins & Helper Classes File ]
+			[ All CSS Plugins & Helper Classes File ]
 -----------------------------------------------------------------*/
 
-/* == bootstrap == */
+/* == Bootstrap == */
 @import url("plugins/bootstrap.min.css");
 
-/* == magnific-popup == */
+/* == Magnific-Popup == */
 @import url("plugins/magnific-popup.css");
 
-/* == helper classes == */
+/* == Helper Classes == */
 @import url("plugins/helper.css");
 
-/* == et-line icon font == */
+/* == Et-Line Icon Font == */
 @import url("plugins/et-line.css");
 
-/* == mailform == */
+/* == Mailform == */
 @import url("plugins/mailform.css");
