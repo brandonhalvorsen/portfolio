@@ -155,7 +155,7 @@ a.btn.black {
       color: #232323; }
   .btn.black:focus {
     background: #fff;
-    color: #fff;
+    color: #000;
     border-color: #232323; }
     .btn.black:focus span {
       color: #232323; }
