@@ -472,23 +472,23 @@
 
                 <!-- Start Get In Touch -->
                 <div class="col-lg-12">
-                        <form method="post" action="bat/rd-mailform.php" class="mailform off2">
-                            <input type="hidden" name="form-type" value="contact">
+                        <form action="https://formspree.io/f/mpzojprq" method="post" class="mailform off2">
+                            <input type="hidden" name="Form-Type" value="Contact">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <input type="text" name="name" placeholder="Name:" data-constraints="@LettersOnly @NotEmpty">
+                                    <input type="text" name="Name" placeholder="Name:" data-constraints="@LettersOnly @NotEmpty">
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" name="phone" placeholder="Telephone:" data-constraints="@Phone">
+                                    <input type="text" name="Phone" placeholder="Telephone:" data-constraints="@Phone">
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" name="email" placeholder="Email:" data-constraints="@Email @NotEmpty">
+                                    <input type="text" name="Email" placeholder="Email:" data-constraints="@Email @NotEmpty">
                                 </div>            
                                 <div class="col-md-6">
-                                    <input type="text" name="subject" placeholder="Subject:" data-constraints="@NotEmpty">
+                                    <input type="text" name="Subject" placeholder="Subject:" data-constraints="@NotEmpty">
                                 </div>         
                                 <div class="col-md-12">
-                                    <textarea name="message" rows="5" placeholder="Message:" data-constraints="@NotEmpty"></textarea>
+                                    <textarea name="Message" rows="5" placeholder="Message:" data-constraints="@NotEmpty"></textarea>
                                 </div>
                                 <div class="mfControls col-md-12 text-center">
                                     <button type="submit" class="btn white">Send Message</button>
@@ -578,12 +578,12 @@
     <!-- Isotope.pkgd.min -->
     <script src="js/isotope.pkgd.min.js"></script>
     
+    <!-- Custom Scripts -->
+    <script src="js/scripts.js"></script>
+    
     <!-- Contact Form Scripts -->
     <script src="js/mailform/jquery.form.min.js"></script>
     <script src="js/mailform/jquery.rd-mailform.min.c.js"></script>
-    
-    <!-- Custom Scripts -->
-    <script src="js/scripts.js"></script>
 </body>
 
 </html>
